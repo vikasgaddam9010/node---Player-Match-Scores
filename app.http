@@ -1,0 +1,17 @@
+GET http://localhost:3000/players/
+###
+GET http://localhost:3000/players/2/
+###
+PUT http://localhost:3000/players/2/
+Content-Type: application/json
+{
+  "playerName": "Vikas Multi"
+}
+###
+GET http://localhost:3000/matches/2/
+###
+GET http://localhost:3000/players/1/matches
+###
+GET http://localhost:3000/matches/2/players
+###
+GET http://localhost:3000/players/1/playerScores
